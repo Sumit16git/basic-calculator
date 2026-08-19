@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@utility animate-spin-slow {
+  animation: spin 8s linear infinite;
+}
